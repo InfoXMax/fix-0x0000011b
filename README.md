@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://your-image-url.com/cool-icon.png" alt="Icon">
-</p>
-
 # Windows Printer Error 0x0000011B Fix
 
 > A registry script and troubleshooting guide to resolve printer-related issues on Windows.
@@ -58,22 +54,23 @@ Remove the troubled printer and manually add it back using its hostname or TCP/I
 
 ### Method 5: Disable Print Spooler RPC Encryption (CVE-2021-1678 Fix)
 
-If the error persists, consider disabling the CVE-2021-1678 fix by modifying the Registry Editor.
+If you are certain that you are using a reliable antivirus for Windows 11, you may consider disabling the CVE-2021-1678 fix by modifying the Registry Editor. This method involves using the "fix-0x0000011b.reg" file provided in this repository.
 
-Please note that editing the registry comes with risks, so proceed with caution and ensure you know what you are doing.
+**Warning**: Editing the registry comes with potential risks, so proceed with caution and ensure you understand the changes being made.
 
-For the detailed steps for each method, refer to the full troubleshooting guide in the article.
+Here's how to use the "fix-0x0000011b.reg" file:
 
-## Contributing
+1. Download the [`fix-0x0000011b.reg`].
 
-If you want to contribute to this project, follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/my-feature`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push the changes to your fork: `git push origin feature/my-feature`.
-5. Submit a pull request.
+2. Double-click the downloaded `.reg` file to apply the changes to your registry.
 
-Please ensure your pull request follows the [contribution guidelines](CONTRIBUTING.md).
+3. If prompted, confirm the changes and allow the script to make modifications.
+
+After applying the "fix-0x0000011b.reg" file and restarting your computer, try printing again and check if the issue is resolved. This registry script disables the RPC encryption for the Printer Spooler, which may help in fixing the "Printer error 0x0000011B" issue caused by the CVE-2021-1678 security patch.
+
+Please remember to create a registry backup before making any changes, and ensure you have a reliable antivirus installed to protect your system from potential security risks.
+
+
 
 ## License
 
