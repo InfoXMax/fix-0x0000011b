@@ -12,7 +12,6 @@
   - [Method 3: Uninstall Recent Windows Updates](#method-3-uninstall-recent-windows-updates)
   - [Method 4: Manually Add the Printer Using Its IP Address](#method-4-manually-add-the-printer-using-its-ip-address)
   - [Method 5: Disable Print Spooler RPC Encryption (CVE-2021-1678 Fix)](#method-5-disable-print-spooler-rpc-encryption-cve-2021-1678-fix)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Description
